@@ -14,18 +14,22 @@ type subCommand struct {
 	action      func(*options, interface{})
 }
 
-func (sc *subCommand) run(opts *options) {
-	sc.parseOpts()
+func (sc *subCommand) run(name string, opts *options) {
+	argv := []string{name}
+	argv = append(argv, opts.args...)
+	sc.parseArgv(argv)
 
 	sc.action(opts, sc.opts)
 }
 
-func (sc *subCommand) parseOpts() {
-	sc.parseArgv(nil)
+func fullDocs(docs string) string {
+	return docs + `
+For common options, see 'palomino help'
+`
 }
 
 func (sc *subCommand) parseArgv(argv []string) {
-	parsed, err := docopt.Parse(sc.docs, argv, true, "", false)
+	parsed, err := docopt.Parse(fullDocs(sc.docs), argv, true, "", false)
 
 	if err != nil {
 		log.Fatal(err)

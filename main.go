@@ -16,7 +16,7 @@ func main() {
 
 func runCommand(opts *options) {
 	if cmd, found := subCommands[opts.cmd]; found {
-		cmd.run(opts)
+		cmd.run(opts.cmd, opts)
 		return
 	}
 	log.Fatal("Subcommand not recognized: %s", opts.cmd)

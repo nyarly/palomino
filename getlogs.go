@@ -14,12 +14,12 @@ type glOpts struct {
 }
 
 const glDocs = `Retrieve logs
-Usage: palomino get-log <request> [<deploy>]
-
+Usage: palomino [options] get-log <request> [<deploy>]
 `
 
 func getLogs(opts *options, glif interface{}) {
 	glopts := glif.(*glOpts)
 
+	log.Printf("%#v", opts)
 	log.Printf("%#v", glopts)
 }

@@ -11,13 +11,14 @@ import (
 type options struct {
 	cmd  string
 	args []string
+	url  string
 }
 
 const docstring = `Issue commands against a Singularity
 Usage: palomino [options] <cmd> [<args>...]
 
 Options:
-  --url=<string>:  The URL of the singularity to contact
+  --url=<string>  The URL of the singularity to contact
 `
 
 func docStr() string {
@@ -31,7 +32,7 @@ func docStr() string {
 }
 
 func parseArgv(argv []string) *options {
-	parsed, err := docopt.Parse(docStr(), argv, true, "palomino v0.0.1", true)
+	parsed, err := docopt.Parse(docStr(), argv, true, "palomino v0.0.1", false)
 
 	if err != nil {
 		log.Fatal(err)
