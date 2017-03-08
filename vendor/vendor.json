@@ -1,0 +1,49 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "CimNnLjYuY04EG++QGqcJHFQwOU=",
+			"path": "github.com/opentable/go-singularity",
+			"revision": "2fc86541d683771750495b03f16d9273ceee83d9",
+			"revisionTime": "2017-03-08T19:37:33Z"
+		},
+		{
+			"checksumSHA1": "cv8j5UlNhGfEBp7c1hCQn+/Rhqo=",
+			"path": "github.com/opentable/go-singularity/dtos",
+			"revision": "2fc86541d683771750495b03f16d9273ceee83d9",
+			"revisionTime": "2017-03-08T19:37:33Z"
+		},
+		{
+			"checksumSHA1": "jI3C9ksnuXqDooLaEy/ABDPGhYg=",
+			"path": "github.com/opentable/swaggering",
+			"revision": "8b04e1ef4c086a1449b7cbb0dcf63dd572a79c17",
+			"revisionTime": "2017-01-18T00:38:15Z"
+		},
+		{
+			"checksumSHA1": "ikor+YKJu2eKwyFteBWhsb8IGy8=",
+			"path": "golang.org/x/tools/go/ast/astutil",
+			"revision": "03d3934baf81f2387349b58864cb98b6fe7cf85e",
+			"revisionTime": "2017-03-03T20:43:35Z"
+		},
+		{
+			"checksumSHA1": "NC6sRRBg4e1wHOkOu2doF24QWh0=",
+			"path": "golang.org/x/tools/godoc/vfs",
+			"revision": "03d3934baf81f2387349b58864cb98b6fe7cf85e",
+			"revisionTime": "2017-03-03T20:43:35Z"
+		},
+		{
+			"checksumSHA1": "Qwc7VecyIh84Ol8n9J9DUwZQtII=",
+			"path": "golang.org/x/tools/godoc/vfs/mapfs",
+			"revision": "03d3934baf81f2387349b58864cb98b6fe7cf85e",
+			"revisionTime": "2017-03-03T20:43:35Z"
+		},
+		{
+			"checksumSHA1": "KZkRMLZpwjt9gg4vRVzyTdrVym0=",
+			"path": "golang.org/x/tools/imports",
+			"revision": "03d3934baf81f2387349b58864cb98b6fe7cf85e",
+			"revisionTime": "2017-03-03T20:43:35Z"
+		}
+	],
+	"rootPath": "github.com/nyarly/palomino"
+}
