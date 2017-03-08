@@ -5,10 +5,11 @@ import "log"
 func init() {
 	subCommands["help"] = &helpCmd
 	subCommands["get-log"] = &getLogsCmd
+	subCommands["get-logs"] = &getLogsCmd
 }
 
 func main() {
-	log.SetFlags(log.Lshortfile)
+	log.SetFlags(0)
 	opts := parseOpts()
 
 	runCommand(opts)
@@ -19,5 +20,5 @@ func runCommand(opts *options) {
 		cmd.run(opts.cmd, opts)
 		return
 	}
-	log.Fatal("Subcommand not recognized: %s", opts.cmd)
+	log.Fatalf("Subcommand not recognized: %s", opts.cmd)
 }

@@ -3,16 +3,28 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "CimNnLjYuY04EG++QGqcJHFQwOU=",
+			"checksumSHA1": "FW4FhNGYsGMG3aGAMlpjvtoy5vk=",
+			"path": "github.com/SeeSpotRun/coerce",
+			"revision": "254d9a2987155861565f76fe962b61429284c197",
+			"revisionTime": "2016-08-18T22:37:30Z"
+		},
+		{
+			"checksumSHA1": "F+YOz/6ymsuIxUy511OAdxjyhRI=",
+			"path": "github.com/docopt/docopt-go",
+			"revision": "784ddc588536785e7299f7272f39101f7faccc3f",
+			"revisionTime": "2016-02-16T23:20:12Z"
+		},
+		{
+			"checksumSHA1": "xEwkfkZlYK/DhArSYRcVYH4fK0Q=",
 			"path": "github.com/opentable/go-singularity",
-			"revision": "2fc86541d683771750495b03f16d9273ceee83d9",
-			"revisionTime": "2017-03-08T19:37:33Z"
+			"revision": "a22ac53848618ac50382a4e72df7952ae8c995b5",
+			"revisionTime": "2017-03-08T20:11:35Z"
 		},
 		{
 			"checksumSHA1": "cv8j5UlNhGfEBp7c1hCQn+/Rhqo=",
 			"path": "github.com/opentable/go-singularity/dtos",
-			"revision": "2fc86541d683771750495b03f16d9273ceee83d9",
-			"revisionTime": "2017-03-08T19:37:33Z"
+			"revision": "a22ac53848618ac50382a4e72df7952ae8c995b5",
+			"revisionTime": "2017-03-08T20:11:35Z"
 		},
 		{
 			"checksumSHA1": "jI3C9ksnuXqDooLaEy/ABDPGhYg=",
@@ -22,27 +34,29 @@
 		},
 		{
 			"checksumSHA1": "ikor+YKJu2eKwyFteBWhsb8IGy8=",
+			"origin": "github.com/nyarly/palomino/vendor/golang.org/x/tools/go/ast/astutil",
 			"path": "golang.org/x/tools/go/ast/astutil",
-			"revision": "03d3934baf81f2387349b58864cb98b6fe7cf85e",
-			"revisionTime": "2017-03-03T20:43:35Z"
+			"revision": "f60b69ed8cd7a29e91f87050ae23a29581a0f367",
+			"revisionTime": "2017-03-08T22:01:44Z"
 		},
 		{
 			"checksumSHA1": "NC6sRRBg4e1wHOkOu2doF24QWh0=",
 			"path": "golang.org/x/tools/godoc/vfs",
-			"revision": "03d3934baf81f2387349b58864cb98b6fe7cf85e",
-			"revisionTime": "2017-03-03T20:43:35Z"
+			"revision": "f60b69ed8cd7a29e91f87050ae23a29581a0f367",
+			"revisionTime": "2017-03-08T22:01:44Z"
 		},
 		{
 			"checksumSHA1": "Qwc7VecyIh84Ol8n9J9DUwZQtII=",
 			"path": "golang.org/x/tools/godoc/vfs/mapfs",
-			"revision": "03d3934baf81f2387349b58864cb98b6fe7cf85e",
-			"revisionTime": "2017-03-03T20:43:35Z"
+			"revision": "f60b69ed8cd7a29e91f87050ae23a29581a0f367",
+			"revisionTime": "2017-03-08T22:01:44Z"
 		},
 		{
-			"checksumSHA1": "KZkRMLZpwjt9gg4vRVzyTdrVym0=",
+			"checksumSHA1": "s1UALNv/LgVRy7N+IcvrKKC2K4E=",
+			"origin": "github.com/nyarly/palomino/vendor/golang.org/x/tools/imports",
 			"path": "golang.org/x/tools/imports",
-			"revision": "03d3934baf81f2387349b58864cb98b6fe7cf85e",
-			"revisionTime": "2017-03-03T20:43:35Z"
+			"revision": "f60b69ed8cd7a29e91f87050ae23a29581a0f367",
+			"revisionTime": "2017-03-08T22:01:44Z"
 		}
 	],
 	"rootPath": "github.com/nyarly/palomino"
