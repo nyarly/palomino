@@ -6,6 +6,7 @@ func init() {
 	subCommands["help"] = &helpCmd
 	subCommands["get-log"] = &getLogsCmd
 	subCommands["get-logs"] = &getLogsCmd
+	subCommands["bounce"] = &bounceCmd
 }
 
 func main() {
