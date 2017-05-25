@@ -21,8 +21,8 @@ Usage: palomino [options] <cmd> [<args>...]
 
 Options:
   --url=<string>      The URL of the singularity to contact
-	--debug, -d         Enable extra output
-	--mesos-port=<int>  Mesos agent port [default: 5051]
+  --debug, -d         Enable extra output
+  --mesos-port=<int>  Mesos agent port [default: 5051]
 `
 
 func docStr() string {
