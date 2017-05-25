@@ -50,5 +50,6 @@ func bounce(topOpts *options, bif interface{}) {
 		log.Fatal(err)
 	}
 
+	log.Print(res)
 	log.Print("Done")
 }
